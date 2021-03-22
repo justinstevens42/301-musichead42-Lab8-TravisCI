@@ -36,5 +36,6 @@ class CityListTest {
         cityList.delete(mockCity());
 
         assertEquals(1, cityList.countCities());
+        assertEquals(0, cityList.countCities());
     }
 }
